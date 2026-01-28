@@ -1,7 +1,5 @@
 Demo Link : https://drive.google.com/file/d/1sySEGjsr_5IZQQjDzbIVQ8a56XJmtD6K/view?usp=sharing
 
-Here is a professional, well-structured README.md file tailored for your Green Eye project. You can copy and paste this directly into your GitHub repository.
-
 Green Eye: Cotton Disease Diagnostic Tool
 Green Eye is an intelligent desktop application designed to help farmers and agronomists identify cotton plant diseases instantly. By combining local YOLOv8 computer vision with a RAG (Retrieval-Augmented Generation) backend via Langflow, the app provides high-confidence diagnoses and detailed treatment plans based on verified agricultural data.
 
