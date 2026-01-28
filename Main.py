@@ -80,8 +80,7 @@ class PlantDiagnosticApp:
             
             # Navigating the response path
             raw_text = result.get('outputs', [{}])[0].get('outputs', [{}])[0].get('results', {}).get('message', {}).get('text')
-            
-            # Remove double stars (**) as requested
+
             if raw_text:
                 return raw_text.replace("**", "")
             return "No diagnosis text found in the API response."
@@ -118,4 +117,5 @@ class PlantDiagnosticApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = PlantDiagnosticApp(root)
+
     root.mainloop()
